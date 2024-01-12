@@ -25,7 +25,7 @@ for k in requirements:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='unityparser',
+    name='unityparser_fork',
     version=version,
     description='A python library to parse and dump Unity YAML files',
     long_description=readme,
